@@ -119,12 +119,6 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\round--clock-icon-86811.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="roundClock.ico" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="Resources\roundClock.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
