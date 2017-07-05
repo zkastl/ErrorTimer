@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 using System.Windows.Input;
 
 /// <summary>
-/// Version 1.0 - Dated 28-Feb-2017
+/// Version 1.0/C#6 - Dated 28-Feb-2017
 /// </summary>
 namespace SlimBindableCommand
 {

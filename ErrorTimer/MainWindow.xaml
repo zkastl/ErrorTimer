@@ -6,6 +6,6 @@
         xmlns:views="clr-namespace:ErrorTimer.View"
         mc:Ignorable="d"
         ResizeMode="NoResize"
-        Title="Error Reporter and Timer" Height="100" Width="400">
-    <views:ErrorTimerControl />
+        Title="Error Reporter and Timer" Height="100" Width="400" Background="LightSlateGray" >
+    <views:ErrorTimerControl HorizontalAlignment="Center" VerticalAlignment="Center" />
 </Window>

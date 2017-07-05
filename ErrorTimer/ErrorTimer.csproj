@@ -67,10 +67,7 @@
     <Compile Include="View\ErrorTimerControl.xaml.cs">
       <DependentUpon>ErrorTimerControl.xaml</DependentUpon>
     </Compile>
-    <Compile Include="View\ReportingControl.xaml.cs">
-      <DependentUpon>ReportingControl.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="SlimBindableCommand.cs" />
+    <Compile Include="Model\SlimBindableCommand.cs" />
     <Page Include="View\ErrorTimerControl.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -87,10 +84,6 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Page Include="View\ReportingControl.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs">

@@ -8,9 +8,9 @@ namespace ErrorTimer.Model
     {
         public static Bitmap CaptureScreens()
         {
-            var allScreens = Screen.AllScreens.OrderBy(s => s.Bounds.Left).ToArray();
+            var allScreens = Screen.AllScreens;
             var totalWidth = allScreens.Sum(s => s.Bounds.Width);
-            var maxHeight = allScreens.Max(s => s.Bounds.Top + s.Bounds.Height);
+            var maxHeight = allScreens.Max(s => s.Bounds.Height);
 
             Bitmap bmp = new Bitmap(totalWidth, maxHeight);
             int offset = 0;
